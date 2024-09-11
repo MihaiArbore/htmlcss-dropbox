@@ -158,16 +158,18 @@
         font-size: 135px;
         padding-top:5%;
         padding-bottom: 5%;
+       
         
     }
 
     .jumbo-img {
-        height: 700px;
+        height: 730px;
         
     }
     .jumbo-info{
         font-size:30px;
         padding-bottom: 10%;
+        
     }
    .free-trial{
     border: none;
@@ -179,7 +181,7 @@
    }
    .cancel{
     padding-top: 10%;
-    font-size: 28px;
+    font-size: 30px;
    }
    .arrow{
     position: relative;
