@@ -86,6 +86,9 @@
 
     /* flex */
 .d-flex{
+    display: flex;
+}
+.hd-flex{
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -125,5 +128,17 @@
     text-decoration: none;
     padding: 0 1rem;
     color: white;
+}
+    /* main */
+        /* jumbotron */
+.container{
+    background-color: #f7005f;
+    width: 80%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: relative;
+    
 }
 
