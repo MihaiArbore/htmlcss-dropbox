@@ -28,7 +28,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -0.5rem;
+    
 }
 
 [class^="col-"] {
@@ -85,9 +85,7 @@
 }
 
     /* flex */
-.d-flex{
-    display: flex;
-}
+
 .hd-flex{
     display: flex; 
     justify-content: space-between;
@@ -134,11 +132,12 @@
 .container{
     background-color: #f7005f;
     width: 80%;
+    height: 400px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    position: relative;
-    
+    width: 80%;
+   
 }
+
 
