@@ -25,17 +25,19 @@
 
     body {
         font-family: Arial, Helvetica, sans-serif;
+        min-width: 1440px;
     }
 
     .container {
         width: 80%;
         margin: auto;
-        padding-left: 4.5%;
+        padding-left: 4%;
     }
 
     .row {
         display: flex;
         flex-wrap: space-between;
+        padding: 0 -1rem;
 
     }
 
@@ -146,7 +148,7 @@
     /* jumbotron */
     .jumbotron {
         background-color: var(--drop-lightB-bg);
-        max-height: 1130px;
+        max-height: 1170px;
     }
 
     .container {
@@ -157,7 +159,7 @@
 
     h1 {
 
-        font-size: 135px;
+        font-size: 140px;
         padding-top: 5%;
         padding-bottom: 5%;
 
@@ -195,7 +197,7 @@
 
     #arr {
         position: absolute;
-        top: 90px;
+        top: 100px;
         font-size: 70px;
     }
     /* plans */
@@ -205,7 +207,7 @@
     .small-container{
         width: 60%;
         margin: auto;
-        ;
+        padding-left: 4.5%;
     }
     .title-plans{
         font-size: 85px;
@@ -227,5 +229,6 @@
         display: flex;
         justify-content: center;
         padding:1rem 0;
+        border-bottom: 1px solid rgb(145, 126, 126);
     }
     
