@@ -29,7 +29,7 @@
     }
 
     .container {
-        width: 80%;
+        width: 70%;
         margin: auto;
         padding-left: 4%;
     }
@@ -46,9 +46,22 @@
 
     }
     /* padding */
-    .pad-b-1r{
-        padding-bottom: 1rem;
+    .pad-b-2r{
+        padding-bottom: 2rem;
     }
+    .pad-b-3r{
+        padding-bottom: 3rem;
+    }
+    .pad-b-4r{
+        padding-bottom: 4rem;
+    }
+    .pad-top-5r{
+        padding-top: 5rem;
+    }
+    .pad-top-3r{
+        padding-top: 3rem;
+    }
+    /* c */
 
     .col-1 {
         width: calc((100% / 12) * 1);
@@ -152,18 +165,13 @@
     /* jumbotron */
     .jumbotron {
         background-color: var(--drop-lightB-bg);
-        max-height: 1170px;
+        max-height: 830px;
     }
 
-    .container {
-        width: 75%;
-        margin: auto;
-
-    }
 
     h1 {
 
-        font-size: 140px;
+        font-size: 110px;
         padding-top: 5%;
         padding-bottom: 5%;
 
@@ -171,12 +179,15 @@
     }
 
     .jumbo-img {
-        height: 730px;
+        height: 470px;
+        width: 1000px;
+       
+        
 
     }
 
     .jumbo-info {
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 10%;
 
     }
@@ -185,14 +196,14 @@
         border: none;
         background-color: var(--drop-bott);
         color: white;
-        height: 60px;
-        width: 350px;
-        font-size: 25px;
+        height: 40px;
+        width: 200px;
+        font-size: 15px;
     }
 
     .cancel {
         padding-top: 10%;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .arrow {
@@ -202,14 +213,14 @@
     #arr {
         position: absolute;
         top: 100px;
-        font-size: 70px;
+        font-size: 50px;
     }
     /* plans */
     .plans{
         padding-top: 7%;
     }
     .small-container{
-        width: 60%;
+        width: 75%;
         margin: auto;
         padding-left: 4.5%;
     }
