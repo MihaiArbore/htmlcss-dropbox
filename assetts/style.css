@@ -290,7 +290,7 @@
     .bottom-card{
         display: flex;
         flex-direction: column;
-        padding: 4rem 3rem;
+        padding: 2rem 3rem;
         font-size: 20px;
 
     }
@@ -305,7 +305,10 @@
         left: 50px;
     }
     /* right-card */
-    
+    .right-card{
+        display: flex;
+        justify-content: end;
+    }
     /* card col12 */
     .call-uff{
         border: none;
@@ -314,11 +317,6 @@
             height: 60px;
             width: 430px;
             font-size: 23px;
-    }
-    .ufficio{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
     }
     .info{
         font-size: 20px;
