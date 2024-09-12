@@ -45,6 +45,10 @@
         padding: 0.5rem;
 
     }
+    /* padding */
+    .pad-b-1r{
+        padding-bottom: 1rem;
+    }
 
     .col-1 {
         width: calc((100% / 12) * 1);
@@ -224,6 +228,7 @@
     .card{
         border: 1px solid rgb(145, 126, 126);
     }
+    /* top-card */
     .top-card{
         font-size: 30px;
         display: flex;
@@ -231,4 +236,19 @@
         padding:1rem 0;
         border-bottom: 1px solid rgb(145, 126, 126);
     }
+    h2{
+        font-size: 50px;
+        padding-bottom: 2rem;
+    }
+    /* mid-card */
+    .mid-card{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem 3rem;
+        font-size: 30px;
+        .price{
+            font-weight: bold;
+        }
+    }
+        
     
