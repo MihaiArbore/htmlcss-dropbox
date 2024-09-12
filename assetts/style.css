@@ -36,8 +36,8 @@
 
     .row {
         display: flex;
-        flex-wrap: space-between;
-        padding: 0 -1rem;
+        flex-wrap: wrap;
+        
 
     }
 
@@ -112,10 +112,13 @@
 
     .col-12 {
         width: 100%;
-    
     }
 
     /* flex */
+    .d-dlex{
+        display: flex;
+        justify-content: space-between;
+    }
 
     .hd-flex {
         display: flex;
@@ -239,11 +242,12 @@
         padding-top: 5%;
         padding-bottom: 5%;
     }
-    /* card */
+    /* card  */
     .card{
         border: 1px solid rgb(145, 126, 126);
         
     }
+    /* card col4 */
     /* top-card */
     .top-card{
         font-size: 20px;
@@ -291,6 +295,18 @@
         position: relative;
         left: 50px;
     }
+    /* card col12 */
+    .call-uff{
+        border: none;
+            background-color: var(--drop-bott);
+            color: white;
+            height: 60px;
+            width: 430px;
+            font-size: 23px;
+            position: absolute;
+            left: 50%;
+    }
+    
     
 
     
