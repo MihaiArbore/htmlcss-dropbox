@@ -37,14 +37,12 @@
     .row {
         display: flex;
         flex-wrap: wrap;
+       
         
 
     }
 
-    [class^="col-"] {
-        padding: 0.5rem;
-
-    }
+    
     /* padding */
     .pad-b-2r{
         padding-bottom: 2rem;
@@ -64,7 +62,10 @@
     .pad-top-3r{
         padding-top: 3rem;
     }
-    /* c */
+    /* col */
+    [class^="col-"] {
+        padding:2rem;
+    }    
 
     .col-1 {
         width: calc((100% / 12) * 1);
@@ -112,6 +113,7 @@
 
     .col-12 {
         width: 100%;
+
     }
 
     /* flex */
@@ -233,6 +235,7 @@
     }
     .title-plans{
         font-size: 55px;
+        padding: 2rem;
     }
     .fatturazione{
         width: 30%;
@@ -241,6 +244,7 @@
         font-size: 25px;
         padding-top: 5%;
         padding-bottom: 5%;
+        padding-left: 2rem;
     }
     /* card  */
     .card{
@@ -278,27 +282,30 @@
             background-color: var(--drop-bott);
             color: white;
             height: 50px;
-            width: 350px;
-            font-size: 23px
+            width: 300px;
+            font-size: 20px
             }
         /* bottom-card */
     }
     .bottom-card{
         display: flex;
         flex-direction: column;
-        padding: 5rem 4rem;
+        padding: 4rem 3rem;
         font-size: 20px;
 
     }
     .fa-check{
         color: #0061ff;
         font-size: 20px;
+      
     }
     hr{
         width: 50px;
         position: relative;
         left: 50px;
     }
+    /* right-card */
+    
     /* card col12 */
     .call-uff{
         border: none;
@@ -307,9 +314,16 @@
             height: 60px;
             width: 430px;
             font-size: 23px;
-            position: absolute;
-            left: 50%;
     }
+    .ufficio{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .info{
+        font-size: 20px;
+    }
+    
     
     
 
