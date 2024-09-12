@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./assetts/style.css">
 </head>
 
-<body class="debug">
+<body class="">
     <!-- header -->
     <header class="app-header">
         <div class="head-container hd-flex">
@@ -110,22 +110,52 @@
             </div>
         </section>
         <!-- section plans -->
+            <!-- title and nav -->
         <section class="plans">
             <div class="small-container">
                 <div class="title-plans">
                     Trova il piano Business che fa per te
                 </div>
                 <div class="fatturazione">
-                  <input type="checkbox">
-                  <label for="">ffatturazione mensile</label>
-                  <input type="checkbox">
-                  <label for="">ffatturazione mensile</label>
+                    <div class="mensile">
+                        <input type="radio">
+                        <label for="">Fatturazione mensile</label>
+                    </div>
+                    <div class="annuale">
+                        <input type="radio">
+                        <label for="">Fatturazione annuale</label>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
+                <!-- card-plans -->
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="top-card">
+                            <i class="fa-solid fa-user"></i>
+                            <span>
+                                Singolo
+                            </span>
+                        </div>
+                        <div class="mid-card">
+                            <div class="title-card">
+                                <h2>
+                                    Professional
+                                </h2>
+                            </div>
+                            <div class="price-card">
+                                <span class="price">
+                                    €12.00
+                                </span>
+                            </div>
+                            <div class="utente-mese">
+                                /mese
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
             </div>
         </section>
     </main>

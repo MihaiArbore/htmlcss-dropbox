@@ -207,4 +207,25 @@
         margin: auto;
         ;
     }
+    .title-plans{
+        font-size: 85px;
+    }
+    .fatturazione{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    /* card */
+    .card{
+        border: 1px solid rgb(145, 126, 126);
+    }
+    .top-card{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding:1rem 0;
+    }
     
