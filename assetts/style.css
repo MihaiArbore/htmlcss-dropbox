@@ -58,6 +58,9 @@
     .pad-top-5r{
         padding-top: 5rem;
     }
+    .pad-tp-4r{
+        padding-top: 4rem;
+    }
     .pad-top-3r{
         padding-top: 3rem;
     }
@@ -109,6 +112,7 @@
 
     .col-12 {
         width: 100%;
+    
     }
 
     /* flex */
@@ -238,6 +242,7 @@
     /* card */
     .card{
         border: 1px solid rgb(145, 126, 126);
+        
     }
     /* top-card */
     .top-card{
@@ -260,15 +265,34 @@
         .price{
             font-weight: bold;
         }
-        
+        .month-trial{
+            border: none;
+            background-color: var(--drop-bott);
+            color: white;
+            height: 60px;
+            width: 430px;
+            font-size: 23px
+            }
+        /* bottom-card */
     }
-    .month-trial{
-        border: none;
-        background-color: var(--drop-bott);
-        color: white;
-        height: 60px;
-        width: 430px;
-        font-size: 23px
+    .bottom-card{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 4rem;
+        font-size: 20px;
+
     }
+    .fa-check{
+        color: #0061ff;
+        font-size: 20px;
+    }
+    hr{
+        width: 50px;
+        position: relative;
+        left: 50px;
+    }
+    
+
+    
         
     
